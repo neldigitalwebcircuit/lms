@@ -40,6 +40,16 @@
         }
         ?>
     </tbody>
+    <tfoot>
+        <tr>
+            <th>#</th>
+            <th>Employee Name</th>
+            <th>Claims Group ID</th>
+            <th class="text-right">Amount</th>
+            <th>Status</th>
+            <th class="text-center">Action</th>
+        </tr>
+    </tfoot>
 </table>
 
 <script type="text/javascript">

@@ -1,4 +1,4 @@
-<table class="table">
+<!-- <table class="table">
   <thead>
     <tr>
       <th>User ID</th>
@@ -20,11 +20,11 @@
     ?>
     
   </tbody>
-</table>
+</table> -->
 
 
-
-<!-- <form>
+<!-- 
+ <form>
   <div class="form-group">
     <label for="exampleInputEmail1">Email address</label>
     <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
@@ -44,4 +44,6 @@
     </label>
   </div>
   <button type="submit" class="btn btn-default">Submit</button>
-</form> -->
+</form>  -->
+
+

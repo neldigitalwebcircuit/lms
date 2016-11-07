@@ -92,15 +92,16 @@ class Form extends CI_Controller
                     'user_id'              => $user_id,
                     'form_claims_group_id' => $form_claims_group_id,
                     'date'                 => date('Y-m-d', strtotime($request['date'][$i])),
+                    'form_claims_batch_id' => strtoupper(substr(md5(date('mY')),0,5)),
                     'description'          => $request['description'][$i],
                     'details'              => $request['details'][$i],
                     'amount'               => str_replace(',', '', $request['amount'][$i]),
-                    'status'               => 0,
+                    'status'               => 0, // Unchecked
                     'date_created'         => date('Y-m-d h:i:s'),
                 ];
             }
             if (count($data) > 0) {
-                echo $this->claims->save($data);
+                $this->claims->save($data);
             }
         }
     }

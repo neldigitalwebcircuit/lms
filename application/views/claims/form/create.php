@@ -86,26 +86,3 @@
 </form>
 
 <script type="text/javascript" src="<?= base_url('assets/js/app/claims/form/create.js') ?>"></script>
-
-<!-- <div class="row">
-    <div class="col-md-3 col-sm-6">
-        <p class="text-left">
-            <strong>Employee ID</strong>
-        </p>
-    </div>
-    <div class="col-md-3 col-sm-6">
-        <p class="text-left">
-            
-        </p>
-    </div>
-    <div class="col-md-3 col-sm-6">
-        <p class="text-left">
-            <strong>Month</strong>
-        </p>
-    </div>
-    <div class="col-md-3 col-sm-6">
-        <p class="text-left">
-            
-        </p>
-    </div>
-</div> -->
